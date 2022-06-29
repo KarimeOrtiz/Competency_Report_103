@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    margin: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*utilities*/
+#select-color{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.create-task, .btn-remove{
+    font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border: none;
+}
+
+.create-task {
+	background-color: #7FB5FF;
+    border-radius: 12px;
+	padding: 15px;
+}
+
+.btn-remove {
+	background: none;
+	color: inherit;
+	padding: 0;
+}
+
+/*tasks*/
+#tasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.btn-remove {
+    justify-content: flex-end;
+    display: flex;
+}
+
+/*USING GRID*/
+/*#tasks {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    height: 900px;
+}
+
+.box {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}*/
